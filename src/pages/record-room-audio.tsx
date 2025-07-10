@@ -62,11 +62,11 @@ export function RecordRoomAudio() {
     }
 
     recorder.current.onstart = () => {
-      console.log('Gravação iniciada')
+      // console.log('Gravação iniciada')
     }
 
     recorder.current.onstop = () => {
-      console.log('Gravação encerrada/pausada')
+      // console.log('Gravação encerrada/pausada')
     }
 
     recorder.current.start()
